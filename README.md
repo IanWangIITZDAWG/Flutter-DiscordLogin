@@ -4,11 +4,12 @@
 
 ### 1. 創建 Discord Application
 
+[Discord Developer](https://discord.com/developers/applications)
 先自行創建 Discord Application。因為不需要甚麼特別資訊，很簡單，這邊就不介紹創建步驟了。
 
 ### 2. 在 Flutter 中使用 WebView
 
-在 Flutter 中，由於沒有 Discord 登入套件可用，所以需要使用 WebView_flutter 從瀏覽器中拿資料回 App。*此篇實作 webview_flutter 版本需要在 4 以上。
+在 Flutter 中沒有 Discord 登入套件可用，所以需要使用 WebView_flutter 從瀏覽器中拿資料回 App。*此篇實作 webview_flutter 版本需要在 4 以上。
 
 ### 3. Discord 登入流程
 
